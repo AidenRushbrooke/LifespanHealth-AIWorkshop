@@ -1,8 +1,12 @@
 # LifespanHealth-AIWorkshop
 Code and datasets for the Lifespan Health AI Workshop at UEA
 
+# 1) ...
 
-# Workshop: Simple AI Methods for Dementia Research using Orange
+# 2) ...
+
+
+# 3) Workshop: Simple AI Methods for Dementia Research using Orange
 
 Welcome to the workshop on applying simple AI methods for dementia research using the Orange Data Mining tool!
 
