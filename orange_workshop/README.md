@@ -19,9 +19,11 @@ We have provided datasets with two different feature sets and two different samp
 ## Example Workflows
 1.  **`classification_simple.ows`:**
     * Demonstrates a basic classification pipeline: loading data, selecting features, training a simple model, and evaluating its performance (e.g., accuracy, confusion matrix).
-2.  **`classification_workflow_extended.ows`:**
+2.  **`regression_simple.ows`:**
+    * Demonstrates a basic regression pipeline
+3.  **`classification_workflow_extended.ows`:**
     * Expands on the simple classification by introducing more advanced techniques for feature importance evaluations. 
-3.  **`visualise.ows`:**
+4.  **`visualise.ows`:**
     * Focuses on data exploration and visualization.
 
 ## Getting Started
