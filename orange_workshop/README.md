@@ -27,7 +27,7 @@ We have provided datasets with two different feature sets and two different samp
 ## Getting Started
 1.  **Install Orange:** If you haven't already, download and install Orange from [https://orangedatamining.com/download/](https://orangedatamining.com/download/).
 2.  **Explore Workflows:** Open the example workflows in Orange and experiment with the different widgets and datasets.
-3.  **Thats it - super simple**
+3.  **Thats it - super simple!**
 
 We hope you find these examples informative and enjoy exploring the capabilities of Orange!
 
