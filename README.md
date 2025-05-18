@@ -39,7 +39,7 @@ We have provided datasets with two different feature sets and two different samp
 2.  **Explore Workflows:** Open the example workflows in Orange and experiment with the different widgets and datasets.
 3.  **Thats it - super simple**
 
-We hope you find this workshop informative and enjoy exploring the capabilities of Orange for data analysis in dementia research!
+We hope you find these examples informative and enjoy exploring the capabilities of Orange!
 
 ---
 
