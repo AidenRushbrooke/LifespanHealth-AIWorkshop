@@ -13,7 +13,7 @@ Once you're comfortable with the example workflows, try a couple of additional t
     * Load one of the datasets and use the **Correlations** widget (or create a **Heatmap** of a correlation matrix). Identify any pairs of features that are highly correlated (e.g., |correlation| > 0.7).
 
 3.  **Handling Missing Data (if present in synthetic data):**
-    * Compare the effect of different imputation methods (e.g., "Average/Most frequent", "Model-based imputer") on the distribution of a feature or on the performance of a simple classification model from `1_simple_classification.ows`.
+    * Compare the effect of different imputation methods (e.g., "Average/Most frequent") on the distribution of a feature or on the performance of a simple classification model from `1_simple_classification.ows`.
 
 4.  **Data Subsetting:**
     * Use the **Select Rows** widget to filter one of the datasets (e.g., select only participants where `AGE` > 70 and `PTGENDER` is a specific value).
