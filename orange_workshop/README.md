@@ -1,6 +1,6 @@
 Welcome to the workshop on applying simple AI methods for dementia research using the Orange Data Mining tool!
 
-# About Orange Data Mining
+## About Orange Data Mining
 [Orange](https://orangedatamining.com/) is an open-source data visualization, machine learning, and data mining toolkit. It features a visual programming front-end for explorative data analysis and interactive visualization, and can also be used as a Python library. Orange is designed to be user-friendly, making complex data analysis tasks accessible to everyone.
 
 ## Workshop Materials
