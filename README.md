@@ -42,5 +42,3 @@ We have provided datasets with two different feature sets and two different samp
 We hope you find these examples informative and enjoy exploring the capabilities of Orange!
 
 ---
-
-**Note on Synthetic Data:** The synthetic data used in this workshop is generated to mimic real-world trends for educational purposes. It is entirely artificial and does not correspond to any real individuals. When working with real patient data, always adhere to strict ethical guidelines, privacy regulations (e.g., GDPR, HIPAA), and data use agreements.
