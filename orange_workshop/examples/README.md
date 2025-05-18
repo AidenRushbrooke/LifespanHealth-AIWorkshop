@@ -29,7 +29,7 @@ Once you're comfortable with the example workflows, try a couple of additional t
     * Use the **ROC Analysis** widget to compare multiple models. 
     * Examine the **Confusion Matrix**. Which classes are most often confused with each other?
 
-### C. (Optional) Bringing Your Own Data
+### C. Bringing Your Own Data
 
 If you have your own tabular dataset (e.g., a CSV file) that you'd like to explore for a classification or regression task:
 
