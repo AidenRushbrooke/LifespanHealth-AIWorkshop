@@ -27,7 +27,43 @@ Once Python is installed, open your Terminal (macOS/Linux) or Command Prompt (Wi
 
 ```bash
 pip install pandas numpy scikit-learn umap-learn hdbscan matplotlib seaborn```
+
 This installs all the Python packages you’ll need for this project.
+
+
+---
+
+## 3. How to Use the Clustering Notebook
+
+### 1: Open the Jupyter Notebook
+
+If this is your first time using Jupyter Notebook, install it with:
+
+```bash
+pip install notebook```
+
+Then launch it:
+```bash
+jupyter notebook```
+
+A browser window will open. Navigate to and open **"notebook_clustering.ipynb"** .
+### 2: Load a Dataset
+
+At the top of the notebook, choose one dataset:
+
+```bash
+python
+import pandas as pd
+data = pd.read_csv("synthetic_dataset_1.csv") ```
+
+You can pick any of the 5 datasets provided.
+
+
+
+
+
+
+
 
 
 
