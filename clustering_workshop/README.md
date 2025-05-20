@@ -13,6 +13,7 @@ You’ll be working with one of five **synthetic datasets**, each simulating sel
 Don’t worry if you’ve never used Python before — this guide will walk you through every step.
 
 ---
+## What to do before the workshop
 
 ## 1. Installing Python (for Beginners)
 
@@ -34,64 +35,28 @@ This installs all the Python packages you’ll need for this project.
 
 ---
 
-## 2. How to Use the Clustering Notebook
+### 1: Download an IDE 
+For an easier coding experience, we recommend using **PyCharm**, a free and user-friendly Python IDE.
 
-### 1: Open the Jupyter Notebook
+### Download PyCharm Community Edition
 
-If this is your first time using Jupyter Notebook, install it with:
+You can download it here:
 
-```bash
-pip install notebook
-```
+👉 [https://www.jetbrains.com/pycharm/download](https://www.jetbrains.com/pycharm/download)
 
-Then launch it:
-```bash
-jupyter notebook
-```
+Choose **Community Edition** (free) unless you already have access to the Professional version.
 
-A browser window will open. Navigate to and open **"notebook_clustering.ipynb"** .
-### 2: Load a Dataset
+### Installation Instructions
 
-At the top of the notebook, choose one dataset:
+1. Download the installer from the link above.
+2. Run the installer and follow the instructions.
+3. When prompted, make sure to:
+   - ✅ Add launcher to Desktop
+   - ✅ Add Python to system PATH (if not already done)
+4. Once installed, open PyCharm and create a new project or open this folder as a project.
+5. Open `cluster_analysis_full.py` and click the green ▶️ run button to get started!
 
-```
-python
-import pandas as pd
-data = pd.read_csv("synthetic_dataset_1.csv")
-```
-
-You can pick any of the 5 datasets provided.
-
-### 3: Run UMAP for Dimensionality Reduction
-
-UMAP will help reduce the data to 2D for visualisation:
-
-```python
-import umap
-reducer = umap.UMAP(random_state=42)
-embedding = reducer.fit_transform(data)
-```
-
-### 📍 Step 4: Apply HDBSCAN for Clustering
-
-```python
-import hdbscan
-clusterer = hdbscan.HDBSCAN(min_cluster_size=20)
-labels = clusterer.fit_predict(embedding)
-```
-
-### 5: Visualise
-```python
-import matplotlib.pyplot as plt
-plt.scatter(embedding[:, 0], embedding[:, 1], c=labels, cmap='Spectral', s=10)
-plt.title("Symptom Clusters Identified by HDBSCAN")
-plt.show()
-```
-
-
-
-
-
+💡 PyCharm also includes a built-in terminal and Python package manager, making it easy to install anything you need.
 
 
 
