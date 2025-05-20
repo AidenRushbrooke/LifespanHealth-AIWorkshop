@@ -11,5 +11,4 @@ Once you’ve chosen a task, please follow the instructions provided in the rele
 
 # 2) AI-driven identification of symptom clusters: a case study in Long Covid pattern recognition
 
-
 # 3) Simple AI Methods for Dementia Research using Orange
