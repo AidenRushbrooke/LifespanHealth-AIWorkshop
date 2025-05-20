@@ -34,7 +34,7 @@ This installs all the Python packages you’ll need for this project.
 
 ---
 
-## 3. How to Use the Clustering Notebook
+## 2. How to Use the Clustering Notebook
 
 ### 1: Open the Jupyter Notebook
 
@@ -54,13 +54,41 @@ A browser window will open. Navigate to and open **"notebook_clustering.ipynb"**
 
 At the top of the notebook, choose one dataset:
 
-```bash
+```
 python
 import pandas as pd
 data = pd.read_csv("synthetic_dataset_1.csv")
 ```
 
 You can pick any of the 5 datasets provided.
+
+### 3: Run UMAP for Dimensionality Reduction
+
+UMAP will help reduce the data to 2D for visualisation:
+
+```python
+import umap
+reducer = umap.UMAP(random_state=42)
+embedding = reducer.fit_transform(data)
+```
+
+### 📍 Step 4: Apply HDBSCAN for Clustering
+
+```python
+import hdbscan
+clusterer = hdbscan.HDBSCAN(min_cluster_size=20)
+labels = clusterer.fit_predict(embedding)
+```
+
+### 5: Visualise
+```python
+import matplotlib.pyplot as plt
+plt.scatter(embedding[:, 0], embedding[:, 1], c=labels, cmap='Spectral', s=10)
+plt.title("Symptom Clusters Identified by HDBSCAN")
+plt.show()
+```
+
+
 
 
 
