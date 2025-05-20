@@ -18,15 +18,17 @@ Don’t worry if you’ve never used Python before — this guide will walk you 
 
 If you don’t already have Python installed:
 
-### Windows
 1. Go to the official Python website: https://www.python.org/downloads/
 2. Click “Download Python 3.12.x” (or latest version).
 3. Run the installer.
 4. **IMPORTANT**: During installation, tick the box that says **“Add Python to PATH”** before clicking "Install Now".
 
-### macOS
-1. The easiest way is to install **Homebrew**:  
-   Open Terminal and run:  
-   ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install python ```
+Once Python is installed, open your Terminal (macOS/Linux) or Command Prompt (Windows) and run:
+
+```bash
+pip install pandas numpy scikit-learn umap-learn hdbscan matplotlib seaborn```
+This installs all the Python packages you’ll need for this project.
+
+
+
+
