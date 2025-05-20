@@ -53,10 +53,11 @@ Choose **Community Edition** (free) unless you already have access to the Profes
 3. When prompted, make sure to:
    - ✅ Add launcher to Desktop
    - ✅ Add Python to system PATH (if not already done)
-4. Once installed, open PyCharm and create a new project or open this folder as a project.
-5. Open `cluster_analysis_full.py` and click the green ▶️ run button to get started!
 
 💡 PyCharm also includes a built-in terminal and Python package manager, making it easy to install anything you need.
+
+### Dataset
+1. Download on of the data sets in this folder
 
 
 
